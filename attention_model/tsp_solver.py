@@ -55,7 +55,6 @@ def plot_tsp(xy, tour, ax1):
     ax1.set_ylim(0, 1)
 
     xs, ys = xy[tour].transpose()
-    xs, ys = xy[tour].transpose()
     # compute the difference of adjacent nodes
     dx = np.roll(xs, -1) - xs
     dy = np.roll(ys, -1) - ys
